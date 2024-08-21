@@ -1,0 +1,22 @@
+#1724194542
+python trajectory_estimation/ntp.py --exp_name ntp_test --dataset_path
+#1724194549
+python trajectory_estimation/ntp.py --exp_name ntp_test --dataset_path /efs/argoverse2/val
+#1724194863
+git stauts
+#1724194865
+git status
+#1724194869
+git checkout trajectory_estimation/ntp.py
+#1724195627
+python trajectory_estimation/ntp.py --exp_name ntp_test --dataset_path /efs/argoverse2/val
+#1724195734
+python trajectory_estimation/ntp.py 
+#1724197990
+mv /efs/argoverse2_seq_len_20/val_ntp_dagger/02678d04-cc9f-3148-9f95-1ba66347dff9seqlen020idx000004/0000000019.feather /efs/argoverse2_seq_len_20/val_ntp_dagger/02678d04-cc9f-3148-9f95-1ba66347dff9seqlen020idx000004/0000000019.feather.bak
+#1724198041
+rm -rf /efs/argoverse2_seq_len_20/val_ntp_dagger/02678d04-cc9f-3148-9f95-1ba66347dff9seqlen020idx000004
+#1724198044
+python trajectory_estimation/ntp.py 
+#1724199299
+python trajectory_estimation/ntp.py 02678d04-cc9f-3148-9f95-1ba66347dff9seqlen020idx000004
